@@ -23,12 +23,11 @@
   width: 65%;
   height: 100%;
   float:left;
-  padding: 10px;
   border: 2px solid grey;
   background: white;
 }
 
-/* -------- PART DEL CONTACT ------- */
+/* -------- STYLE CONTACT BAR ------- */
 
 .top {
   width: 100%;
@@ -105,4 +104,15 @@
   margin: 2px;
 }
 
-/* -------- PARTE DELLA CHAT ------- */
+/* -------- STYLE CHAT BOX ------- */
+
+.bar_chat {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  background: #EEEEEE;
+}
