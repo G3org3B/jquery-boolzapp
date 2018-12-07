@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  overflow: hidden;
 }
 .color_blue {
   color: #00D1FF;
@@ -161,8 +162,8 @@ body {
 }
 .message_mittente, .message_destinatario {
   display: block;
-  max-width: 60%;
   min-width: 20%;
+  max-width: 60%;
   background: white;
   padding: 15px;
   margin: 15px;
