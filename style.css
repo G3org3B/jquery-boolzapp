@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
 }
 .color_blue {
   color: #00D1FF;
@@ -110,8 +111,6 @@ body {
   border-style: none;
 }
 .bottom {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   height: calc(100% - 110px);
 }
@@ -178,14 +177,14 @@ body {
   clear: both;
 }
 .bar_sent_message {
-  position: fixed;
+  position: absolute;
   bottom: 0px;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
   height: 60px;
-  width: 65%;
+  width: 67%;
   background: #EEEEEE;
 }
 .input_message {
