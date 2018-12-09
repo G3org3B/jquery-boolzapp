@@ -159,7 +159,7 @@ body {
   overflow-y: auto;
 
 }
-.message_mittente, .message_destinatario {
+.message_mittente, .message_destinatario, .template.testo_messaggio {
   display: block;
   min-width: 20%;
   max-width: 60%;
@@ -169,7 +169,7 @@ body {
   border-radius: 10px;
   font-size: 15px;
 }
-.message_destinatario {
+.message_destinatario, .template.testo_messaggio {
   background: rgb(213, 249, 203);
   float: right;
 }
@@ -200,4 +200,7 @@ body {
 .emoticon, .sent {
   padding: 10px;
   margin: 10px;
+}
+.template {
+  display: none;
 }
